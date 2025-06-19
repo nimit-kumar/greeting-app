@@ -2,7 +2,7 @@ import time
 
 b= time.strftime("%H", time.localtime())
 a=int(b)
-print("The time is",time.strftime("%I:%M:%S:%P",time.localtime()))
+print("The time is",time.strftime("%I:%M:%S:%p",time.localtime()))
 if(a>5 and a<12):
   print("Good morning")
 elif(a>=12 and a<17):
